@@ -1,6 +1,6 @@
 bool isPrime(int p) {
     bool prime { true };
-    for(int i=2;i<=p/2;i++) {
+    for(int i=2;i*i<=p;i++) {
         if(p%i == 0) {
             prime = false;
             break;
