@@ -38,3 +38,4 @@ test.*
 input
 output
 tempCodeRunnerFile.cpp
+.DS_Store
