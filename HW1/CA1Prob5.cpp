@@ -52,7 +52,7 @@ double rectangle::getLength() {
 }
 
 double rectangle::getPerimeter() {
-    return perimeter;
+    return this->perimeter;
 }
 
 double rectangle::getArea() {
@@ -60,5 +60,5 @@ double rectangle::getArea() {
 }
 
 bool rectangle::isSquare() {
-    return this->width == this->length ? true : false;
+    return this->width == this->length;
 }

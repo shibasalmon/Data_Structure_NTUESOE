@@ -17,7 +17,9 @@ class flower {
 };
 
 flower::flower(string n, int pt, double pr) {
-
+    setName(n);
+    setPetal(pt);
+    setPrice(pr);
 }
 
 void flower::setName(string n) {
